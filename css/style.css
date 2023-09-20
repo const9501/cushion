@@ -1,0 +1,319 @@
+@font-face {
+  font-family: 'gothampro';
+  src: url(../assets/fonts/gothampro.ttf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: gothampro, sans-serif;
+  background-color: #737373;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #F19D2F;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+header span {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #2C2B31;
+}
+
+.flag {
+  width: 15px;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #FFD1AC;
+  padding: 20px;
+}
+
+.logo {
+  width: 220px;
+  height: 30px;
+}
+
+.circle-wrapper {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #F19D2F;
+  width: 15px;
+  height: 15px;
+  right: 55px;
+  top: 8px;
+}
+
+.logo-wrapper span {
+  font-size: 14px;
+  text-align: center;
+  color: #2C2B31;
+}
+
+
+
+.product-wrapper {
+  position: relative;
+  height: 280px;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+}
+
+.timer {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  background-color: #F19D2F;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer__title {
+  font-size: 12px;
+}
+
+.timer__counter {
+  font-size: 22px;
+}
+
+.price {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  background-color: #37D997;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  padding: 6px 10px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.old-price {
+  position: relative;
+  font-size: 18px;
+}
+
+.old-price:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 3px;
+  background-color: #E27500;
+  border-radius: 5px;
+}
+
+.new-price {
+  font-size: 22px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #F0F0F0;
+  padding: 10px 15px 40px;
+}
+
+.trustpilot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trustpilot__rating {
+  font-size: 12px;
+}
+
+.trustpilot__logo {
+  width: 72px;
+  height: 18px;
+}
+
+.trustpilot__sell {
+  font-size: 12px;
+  color: #37D997;
+  text-decoration-line: underline;
+}
+
+.product-name {
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider__item {
+  width: 100%;
+}
+
+.slider-nav {
+  width: 100%;
+  row-gap: 10px
+}
+
+.slider-nav__item {
+  padding: 0 5px;
+}
+
+.slider-nav__item.slick-current {
+  opacity: .5;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.information__text {
+  font-size: 16px;
+}
+
+.information__rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  width: 14px;
+  height: 13px;
+}
+
+.information__rating span {
+  font-size: 16px;
+}
+
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.selector-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 170px;
+}
+
+.selector-wrapper__title {
+  font-size: 10px;
+  text-align: center;
+}
+
+.selector-wrapper__selector {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px 0;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.main-button {
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: #37D997;
+  border: none;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.main-button:hover {
+  background-color: #1cad71;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
